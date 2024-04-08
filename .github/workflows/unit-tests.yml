@@ -1,5 +1,5 @@
-name: AutomatedTesting
-run-name: ${{ github.actor }} is testing frontend
+name: Unit tests
+run-name: ${{ github.actor }} is running unit tests
 on:
   pull_request:
   workflow_dispatch:
